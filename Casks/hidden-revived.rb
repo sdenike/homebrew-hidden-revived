@@ -1,6 +1,6 @@
 cask "hidden-revived" do
-  version "2.0.6"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  version "2.1.0"
+  sha256 "219bdf6d7afce663d18d9b2ecfb8168326cc6a398d5e6380eab67674676bdcb1"
 
   url "https://github.com/sdenike/hidden-revived/releases/download/v#{version}/HiddenBarRevived-#{version}.zip",
       verified: "github.com/sdenike/hidden-revived/"
@@ -14,7 +14,7 @@ cask "hidden-revived" do
   end
 
   auto_updates false
-  depends_on macos: ">= :high_sierra"
+  depends_on macos: ">= :ventura"
 
   app "Hidden Bar Revived.app"
 
