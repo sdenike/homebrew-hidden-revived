@@ -19,11 +19,11 @@ cask "hidden-revived" do
   app "Hidden Bar Revived.app"
 
   zap trash: [
-    "~/Library/Preferences/com.sdenike.hiddenbar.plist",
-    "~/Library/Preferences/com.sdenike.hiddenbar.launcher.plist",
     "~/Library/Application Scripts/com.sdenike.hiddenbar",
     "~/Library/Application Scripts/com.sdenike.hiddenbar.launcher",
     "~/Library/Containers/com.sdenike.hiddenbar",
     "~/Library/Containers/com.sdenike.hiddenbar.launcher",
+    "~/Library/Preferences/com.sdenike.hiddenbar.launcher.plist",
+    "~/Library/Preferences/com.sdenike.hiddenbar.plist",
   ]
 end
