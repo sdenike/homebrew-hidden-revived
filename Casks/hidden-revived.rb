@@ -14,7 +14,7 @@ cask "hidden-revived" do
   end
 
   auto_updates false
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Hidden Bar Revived.app"
 
